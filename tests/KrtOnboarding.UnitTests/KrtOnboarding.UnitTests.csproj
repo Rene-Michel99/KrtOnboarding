@@ -26,6 +26,7 @@
     <ProjectReference Include="..\..\src\KrtOnboarding.Domain\KrtOnboarding.Domain.csproj" />
     <ProjectReference Include="..\..\src\KrtOnboarding.Application\KrtOnboarding.Application.csproj" />
     <ProjectReference Include="..\..\src\KrtOnboarding.Infrastructure\KrtOnboarding.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\KrtOnboarding.Api\KrtOnboarding.Api.csproj" />
   </ItemGroup>
 
 </Project>

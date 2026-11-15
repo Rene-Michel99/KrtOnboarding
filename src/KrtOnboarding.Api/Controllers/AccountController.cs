@@ -89,7 +89,6 @@ public class AccountController : ControllerBase
         } catch (Exception ex)
         {
             _logger.LogError(ex, "Erro ao criar a conta.");
-            await _accountRepository.DeleteAsync(account); // Rollback in case of failure
             return StatusCode(500, new { message = "Ocorreu um erro ao criar a conta." });
         }
     }
