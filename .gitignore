@@ -1,0 +1,29 @@
+# Saída de build
+[Bb]in/
+[Oo]bj/
+artifacts/
+publish/
+
+# IDEs
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Testes
+TestResults/
+
+# Logs
+*.log
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
